@@ -1,0 +1,1 @@
+java -jar .\JAVA_UPnP-To-Onvif-Adapter-1.0-SNAPSHOT-executable.jar

@@ -1,0 +1,19 @@
+{
+  "name": "buttons",
+  "version": "1.0.0",
+  "description": "boutons upnp basée sur une carte Arduino",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/components-upnp/Arduino_Buttons.git"
+  },
+  "author": "Creative Technology",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/components-upnp/Arduino_Buttons/issues"
+  },
+  "homepage": "https://github.com/components-upnp/Arduino_Buttons#readme"
+}
