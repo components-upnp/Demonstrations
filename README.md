@@ -10,7 +10,7 @@ Afin de pouvoir lancer les démonstrations présentes dans ce dépôt il faut av
     3) WComp : http://www.wcomp.fr/_media/public_namespace:releases:sharpwcomp-3.2.1.1390.msi
     4) UPnPDesigner : http://www.wcomp.fr/_media/public_namespace:releases:upnpdesigner-3.2.1.1390.msi
     
-Attention : les intallations doivent être effectuées dans l'ordre présenté ci-dessus.
+<i><span style="color:#FD0202">Attention</span></i> : les intallations doivent être effectuées dans l'ordre présenté ci-dessus.
 
 Maitenant vous devez télécharger les fichiers de ce dépôt en cliquant sur le bouton "clone or download", puis "Download ZIP",
 comme montré sur l'image ci_dessous :
@@ -23,7 +23,7 @@ Une fois le téléchargement terminé vous pouvez extraire le contenu de l'archi
 
 Le lancement des démonstrations se fait de la même manière pour chacune d'elle, il suffit pour cela de lancer le .bat correspondant.
 
-Attention : pour lancer correctement la démonstration du lecteur de diapositive il faut préalablement connecter la carte Arduino
+<i><span style="color:#FD0202">Attention</span></i> : pour lancer correctement la démonstration du lecteur de diapositive il faut préalablement connecter la carte Arduino
 sur laquelle sont connectés deux boutons soit connectée au PC. Vous devez vérifier qu'elle sur quel port la carte est connectée
 et effectuer quelques changements si besoin est comme expliqué en section "Vérification connexion et installation carte Arduino".
 
