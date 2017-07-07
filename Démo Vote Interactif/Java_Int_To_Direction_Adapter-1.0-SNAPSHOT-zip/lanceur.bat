@@ -1,0 +1,1 @@
+java -jar Java_Int_To_Direction_Adapter-1.0-SNAPSHOT-executable.jar

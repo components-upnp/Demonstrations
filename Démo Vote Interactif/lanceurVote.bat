@@ -1,33 +1,32 @@
 ﻿@echo off
 
 Rem Suppression des beans déjà créés
-cd %USERPROFILE%
-del Documents\wcomp.net\beans\*
+del %USERPROFILE%\Documents\wcomp.net\beans\*
 
 Rem Lancement Polling Station
-cd %USERPROFILE%
-cd IdeaProjects\Java_Bureau_De_Vote\target\Java_Bureau_De_Vote-1.0-SNAPSHOT-zip
+cd .\Java_Bureau_De_Vote-1.0-SNAPSHOT-zip\
 start lanceur.bat
+cd ..
 
 Rem Lancement IHM
-cd %USERPROFILE%
-cd IdeaProjects\Java_Polling_Station_IHM\target
+cd .\Java_Polling_Station_IHM\
 start Java_Polling_Station_IHM-1.0-SNAPSHOT-jar-with-dependencies.jar
+cd ..
 
 Rem Lancement Générateur de rapport
-cd %USERPROFILE%
-cd IdeaProjects\GenerateurDeRapport\target
+cd .\GenerateurDeRapport\
 start GenerateurDeRapport-1.0-SNAPSHOT-jar-with-dependencies.jar
+cd ..
 
 Rem Lancement Int to Direction adaptateur
-cd %USERPROFILE%
-cd IdeaProjects\Java_Int_To_Direction_Adapter\target\Java_Int_To_Direction_Adapter-1.0-SNAPSHOT-zip
+cd .\Java_Int_To_Direction_Adapter-1.0-SNAPSHOT-zip\
 start lanceur.bat
+cd ..
 
 Rem Lancement script assemblage vote interactif 
-cd %USERPROFILE%
-cd IdeaProjects\Scripts_UserStory\target
+cd .\Assemblage\
 start lanceurAssemblageVote.bat
+cd ..
 
 Rem Lancement du wizard designer
 cd C:\Program Files (x86)\SharpDevelop\3.0\UPnPWizardDesigner

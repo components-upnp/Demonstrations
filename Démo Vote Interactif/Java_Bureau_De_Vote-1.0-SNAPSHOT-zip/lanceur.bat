@@ -1,0 +1,1 @@
+java -jar Java_Bureau_De_Vote-1.0-SNAPSHOT-executable.jar
