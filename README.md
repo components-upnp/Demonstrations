@@ -23,6 +23,19 @@ Une fois le téléchargement terminé vous pouvez extraire le contenu de l'archi
 
 Le lancement des démonstrations se fait de la même manière pour chacune d'elle, il suffit pour cela de lancer le .bat correspondant.
 
+Le script lancera un certains nombre de programmes dont SharpDevelop et UPnP Wizard Designer.
+Afin que les assemblages de composants puissent avoir lieu, il faut ouvrir un conteneur WComp dans SharpDevelop. Si c'est la
+première fois, choisissez Fichier -> Nouveau -> Fichier. Puis dans WComp.net choisir C# container. Enregistrez le fichier
+et nommez le précisément container.cs
+Si vous avez déjà créé le conteneur, ouvrez le simplement.
+
+Une fois dans le conteneur, cliquez sur WComp.net -> Bind to UPnP Device
+Du côté de UPnP Wizard Designer cliquez sur connect puis le nom du conteneur. 
+
+Vous pouvez maintenant ajoutez des composants Android quand vous le souhaitez et obeserver les assemblages dans le 
+conteneur WComp. Pour plus d'informations à propose des composants à utiliser préférablement pour chaque démo, se référer
+au document explicatif présent dans chaque répertoire.
+
 <i><span style="color:#FD0202">Attention</span></i> : pour lancer correctement la démonstration du lecteur de diapositive il faut préalablement connecter la carte Arduino
 sur laquelle sont connectés deux boutons soit connectée au PC. Vous devez vérifier qu'elle sur quel port la carte est connectée
 et effectuer quelques changements si besoin est comme expliqué en section "Vérification connexion et installation carte Arduino".
