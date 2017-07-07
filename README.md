@@ -22,7 +22,7 @@ Une fois le téléchargement terminé vous pouvez extraire le contenu de l'archi
 <strong>Lancement d'une démonstration :</strong>
 
 <i><span style="color:#FD0202">Attention</span></i> : pour lancer correctement la démonstration du lecteur de diapositive il faut préalablement connecter la carte Arduino
-sur laquelle sont connectés deux boutons soit connectée au PC. Vous devez vérifier qu'elle sur quel port la carte est connectée
+sur laquelle sont connectés deux boutons soit connectée au PC. Vous devez vérifier sur quel port la carte est connectée
 et effectuer quelques changements si besoin est comme expliqué en section "Vérification connexion et installation carte Arduino".
 
 Le lancement des démonstrations se fait de la même manière pour chacune d'elle, il suffit pour cela de lancer le .bat correspondant.
