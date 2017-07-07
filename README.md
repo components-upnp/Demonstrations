@@ -10,7 +10,7 @@ Afin de pouvoir lancer les démonstrations présentes dans ce dépôt il faut av
     3) WComp : http://www.wcomp.fr/_media/public_namespace:releases:sharpwcomp-3.2.1.1390.msi
     4) UPnPDesigner : http://www.wcomp.fr/_media/public_namespace:releases:upnpdesigner-3.2.1.1390.msi
     
-<i><span style="color:#FD0202">Attention</span></i> : les intallations doivent être effectuées dans l'ordre présenté ci-dessus.
+<i>Attention</i> : les intallations doivent être effectuées dans l'ordre présenté ci-dessus.
 
 Maitenant vous devez télécharger les fichiers de ce dépôt en cliquant sur le bouton "clone or download", puis "Download ZIP",
 comme montré sur l'image ci_dessous :
