@@ -29,11 +29,7 @@ et effectuer quelques changements si besoin est comme expliqué en section "Vér
 
 Le lancement des démonstrations se fait de la même manière pour chacune d'elle, il suffit pour cela de lancer le .bat correspondant.
 
-Le script lancera un certains nombre de programmes dont SharpDevelop et UPnP Wizard Designer.
-Afin que les assemblages de composants puissent avoir lieu, il faut ouvrir un conteneur WComp dans SharpDevelop. Si c'est la
-première fois, choisissez Fichier -> Nouveau -> Fichier. Puis dans WComp.net choisir C# container. Enregistrez le fichier
-et nommez le précisément container.cs
-Si vous avez déjà créé le conteneur, ouvrez le simplement.
+Puvrez le fichier container.cs qui est à la racine de l'archive.
 
 Une fois dans le conteneur, cliquez sur WComp.net -> Bind to UPnP Device
 Du côté de UPnP Wizard Designer cliquez sur connect puis le nom du conteneur. 
