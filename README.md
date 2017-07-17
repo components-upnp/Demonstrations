@@ -60,25 +60,25 @@ port de la carte à la 3ème ligne.
 
 <strong>Installation Caméra : </strong>
 
-    1) Connecter la caméra au routeur à l'aide d'un câble Ethernet.
-    2) Réinitialiser la caméra comme montré sur la photo ci-dessous.
+   1) Connecter la caméra au routeur à l'aide d'un câble Ethernet.
+   2) Réinitialiser la caméra comme montré sur la photo ci-dessous.
     
-    ![alt tag](https://github.com/components-upnp/Scripts_Demo/blob/master/R%C3%A9initialisationCam%C3%A9ra.jpg)
+   ![alt tag](https://github.com/components-upnp/Scripts_Demo/blob/master/R%C3%A9initialisationCam%C3%A9ra.jpg)
     
-    3) Lancer l'application SriCam sur un appareil Android (il doit être connecté au même réseau que la caméra), ajouter la
-    caméra avec l'identifiant et le mot de passe ecrit sur l'autocollant collé sur sa base.
-    4) Faire apparaître le menu de l'image suivante en restant appuyé sur la vignette de la caméra et appuyer ensuite sur
-    Réglages.
+   3) Lancer l'application SriCam sur un appareil Android (il doit être connecté au même réseau que la caméra), ajouter la
+   caméra avec l'identifiant et le mot de passe ecrit sur l'autocollant collé sur sa base.
+   4) Faire apparaître le menu de l'image suivante en restant appuyé sur la vignette de la caméra et appuyer ensuite sur
+   Réglages.
     
-    ![alt tag]()
+   ![alt tag]()
     
-    5) Ouvrir les propriétés réseaux et relever l'adresse IP.
-    6) Lancer le scirpt de la démo caméra.
-    7) SharpDevelop ouvert, ouvrez container.cs.
-    8) Cliquer sur le composant PTZClientProxy et changer le champ XAddr en ajustant l'addresse IP avec celle de la caméra. 
+   5) Ouvrir les propriétés réseaux et relever l'adresse IP.
+   6) Lancer le scirpt de la démo caméra.
+   7) SharpDevelop ouvert, ouvrez container.cs.
+   8) Cliquer sur le composant PTZClientProxy et changer le champ XAddr en ajustant l'addresse IP avec celle de la caméra. 
     
-    ![alt tag](https://github.com/components-upnp/Scripts_Demo/blob/master/CaptureIpWcomp.PNG)
+   ![alt tag](https://github.com/components-upnp/Scripts_Demo/blob/master/CaptureIpWcomp.PNG)
     
-    9) Enregistrer et fermer les programmes.
+   9) Enregistrer et fermer les programmes.
     
     
