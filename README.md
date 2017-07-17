@@ -9,6 +9,8 @@ Afin de pouvoir lancer les démonstrations présentes dans ce dépôt il faut av
     2) SharpDevelop 3.0 : http://www.wcomp.fr/sharpwcomp3
     3) WComp : http://www.wcomp.fr/_media/public_namespace:releases:sharpwcomp-3.2.1.1390.msi
     4) UPnPDesigner : http://www.wcomp.fr/_media/public_namespace:releases:upnpdesigner-3.2.1.1390.msi
+    5) SriCam sur Android (Si vous voulez lancer la démo de la caméra, plus de précision en section Installation Caméra) :
+    https://play.google.com/store/apps/details?id=com.xapcamera&hl=fr
     
 <i>Attention</i> : les intallations doivent être effectuées dans l'ordre présenté ci-dessus.
 
@@ -43,7 +45,7 @@ au document explicatif présent dans chaque répertoire.
 <strong>Vérification connexion et installation carte Arduino :</strong>
 
 Pour vérifier l'état de connexion de la carte Arduino vous devez lancer l'IDE Arduino installé précédemment, puis cliquer sur 
-"Outils" puis déplacer le curseur sur "COM ...". Vous verrez apparaître le port COM sur lequle la carte est connectée ainsi 
+"Outils" puis déplacer le curseur sur "COM ...". Vous verrez apparaître le port COM sur lequel la carte est connectée ainsi 
 que son nom entre parenthèse, comme vous pouvez le voir sur l'image qui suit et finalement notez le nom du port et cliquez dessus.
 
 ![alt tag](https://github.com/components-upnp/Scripts_Demo/blob/master/captureArduinoPort.png)
@@ -55,3 +57,28 @@ Nous allons maitenant installer un script sur la carte. Pour cela lancer le scri
 La carte est maintenant prête, mais nous devons encore préciser le port de la carte au script du composant Arduino.
 Pour cela ouvrez dans un éditeur de texte le fichier Buttons\upnp_Arduino_Buttons\index.js et si besoin est changez le 
 port de la carte à la 3ème ligne.
+
+<strong>Installation Caméra : </strong>
+
+    1) Connecter la caméra au routeur à l'aide d'un câble Ethernet.
+    2) Réinitialiser la caméra comme montré sur la photo ci-dessous.
+    
+    ![alt tag](https://github.com/components-upnp/Scripts_Demo/blob/master/R%C3%A9initialisationCam%C3%A9ra.jpg)
+    
+    3) Lancer l'application SriCam sur un appareil Android (il doit être connecté au même réseau que la caméra), ajouter la
+    caméra avec l'identifiant et le mot de passe ecrit sur l'autocollant collé sur sa base.
+    4) Faire apparaître le menu de l'image suivante en restant appuyé sur la vignette de la caméra et appuyer ensuite sur
+    Réglages.
+    
+    ![alt tag]()
+    
+    5) Ouvrir les propriétés réseaux et relever l'adresse IP.
+    6) Lancer le scirpt de la démo caméra.
+    7) SharpDevelop ouvert, ouvrez container.cs.
+    8) Cliquer sur le composant PTZClientProxy et changer le champ XAddr en ajustant l'addresse IP avec celle de la caméra. 
+    
+    ![alt tag](https://github.com/components-upnp/Scripts_Demo/blob/master/CaptureIpWcomp.PNG)
+    
+    9) Enregistrer et fermer les programmes.
+    
+    
