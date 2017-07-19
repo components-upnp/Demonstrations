@@ -19,7 +19,8 @@ comme montré sur l'image ci_dessous :
 
 ![alt tag](https://github.com/components-upnp/Scripts_Demo/blob/master/captureDepotDemos.PNG)
 
-Une fois le téléchargement terminé vous pouvez extraire le contenu de l'archive dans le répertoire de votre choix.
+Une fois le téléchargement terminé vous pouvez extraire le contenu de l'archive dans le répertoire de votre choix puis lancer
+le script installation.bat se trouvant à la racine de l'archive. 
 
 <strong>Lancement d'une démonstration :</strong>
 
@@ -29,7 +30,7 @@ et effectuer quelques changements si besoin est comme expliqué en section "Vér
 
 Le lancement des démonstrations se fait de la même manière pour chacune d'elle, il suffit pour cela de lancer le .bat correspondant.
 
-Puvrez le fichier container.cs qui est à la racine de l'archive.
+Ouvrez le fichier container.cs qui est à la racine de l'archive.
 
 Une fois dans le conteneur, cliquez sur WComp.net -> Bind to UPnP Device
 Du côté de UPnP Wizard Designer cliquez sur connect puis le nom du conteneur. 
