@@ -67,7 +67,7 @@ port de la carte à la 3ème ligne.
    4) Faire apparaître le menu de l'image suivante en restant appuyé sur la vignette de la caméra et appuyer ensuite sur
    Réglages.
     
-   ![alt tag]()
+   ![alt tag](https://github.com/components-upnp/Scripts_Demo/blob/master/capture_SriCam.png)
     
    5) Ouvrir les propriétés réseaux et relever l'adresse IP.
    6) Lancer le scirpt de la démo caméra.
